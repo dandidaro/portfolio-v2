@@ -11,21 +11,21 @@
     <link rel="stylesheet" href="./css/output.css">
     <title>Dandi Darojat | Digital Designer and Frontend Web Dev</title>
 </head>
-<body class="font-albertsans w-auto 2xl:w-6/12 text-jetblack bg-bonewhite mx-10 lg:mx-32 2xl:mx-auto">
+<body class="font-albertsans w-auto 2xl:w-6/12 text-jetblack bg-bonewhite mx-4 sm:mx-10 lg:mx-32 2xl:mx-auto">
     <!-- SECTION 0 | HEADER -->
     <div class="container min-w-full lg:w-auto relative">
         <div class="container min-w-full lg:w-auto absolute">
             <div class="flex flex-row p-5">
-                <div class="basis-1/4">
+                <div class="basis-1/4 hidden sm:inline-block">
                     <a href="#"><img src="./assets/images/logo.png" class="max-h-10"></a>
                 </div>
-                <div class="basis-2/4 place-items-center align-middle content-center">
-                    <div class="flex flex-row items-center gap-2 text-xs bg-lightgray rounded-full px-3 py-1">
+                <div class="basis-full sm:basis-2/4 place-items-center align-middle content-center">
+                    <div class="flex flex-row items-center gap-2 text-xs bg-lightgray rounded-full px-3 py-1 w-fit">
                         Available for Remote Work
                         <div class="w-2.5 h-2.5 bg-green rounded-full"></div>
                     </div>
                 </div>
-                <div class="basis-1/4 text-right">
+                <div class="basis-1/4 text-right hidden sm:inline-block">
                     <button class="tracking-tight font-medium text-sm px-3.5 py-1.5 border border-solid border-jetblack rounded-md hover:bg-jetblack hover:text-bonewhite duration-200">My Resume</button>
                 </div>
             </div>
@@ -36,9 +36,10 @@
 
     <!-- SECTION 1 | HERO -->
     <div class="container min-h-screen min-w-full lg:w-auto content-center place-items-center">
+        <div class="inline-block sm:hidden"><a href="#"><img src="./assets/images/logo.png" class="max-h-10 mb-4"></a></div>
         <div class="flex flex-col place-items-center space-y-1 *:text-center *:w-fit">
             <p class="font-light">Hello, I'm <a class="font-bold hover:bg-jetblack hover:text-bonewhite hover:px-1 duration-200" href="https://linkedin.com/in/dandidaro" target="_blank">Dandi</a> 🙌🏻</p>
-            <h1 class="text-5xl md:text-6xl lg:text-7xl tracking-tighter">Digital Designer & <br>Frontend Web Developer</h1>
+            <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl tracking-tighter">Digital Designer & <br>Frontend Web Developer</h1>
             <p class="text-sm md:text-base">I love the process of crafting minimalist and pixel-perfect products from scratch</p>
             <p class="text-lightgray text-sm">But I hate naming frames...</p>
             <div class="flex flex-row gap-2">
@@ -64,6 +65,7 @@
                     </div>
                 </a>
             </div>
+            <div class="inline-block sm:hidden"><button class="mt-4 tracking-tight font-medium text-sm px-3.5 py-1.5 border border-solid border-jetblack rounded-md hover:bg-jetblack hover:text-bonewhite duration-200">My Resume</button></div>
         </div>
         <div class="bg-yellow w-96 h-96 absolute rounded-full opacity-10 m-auto left-0 right-0 top-0 bottom-0 blur-3xl -z-50"></div>
     </div>
@@ -325,7 +327,7 @@
 
     <!-- SECTION 4 | FOOTER -->
      <div class="container min-w-full my-20">
-        <div class="flex flex-row bg-jetblack px-10 py-8 rounded-xl place-content-center place-items-center flex-wrap md:flex-nowrap gap-4 md:gap-0">
+        <div class="flex flex-row bg-jetblack px-8 sm:px-10 py-8 rounded-xl place-content-center place-items-center flex-wrap md:flex-nowrap gap-4 md:gap-0">
             <div class="flex flex-col grow *:text-bonewhite text-center md:text-left">
                 <h1 class="text-2xl tracking-tighter font-medium">Let's Collaborate ✨</h1>
                 <p class="text-sm tracking-tighter">Wondering what we can achieve if we work together?</p>

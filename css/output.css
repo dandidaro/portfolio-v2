@@ -624,6 +624,26 @@ video {
   top: 50%;
 }
 
+.top-20 {
+  top: 5rem;
+}
+
+.top-1\/4 {
+  top: 25%;
+}
+
+.left-auto {
+  left: auto;
+}
+
+.right-auto {
+  right: auto;
+}
+
+.left-1\/2 {
+  left: 50%;
+}
+
 .-z-50 {
   z-index: -50;
 }
@@ -661,12 +681,60 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
 
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-14 {
@@ -763,6 +831,14 @@ video {
   width: auto;
 }
 
+.w-screen {
+  width: 100vw;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
 .min-w-full {
   min-width: 100%;
 }
@@ -773,6 +849,18 @@ video {
 
 .max-w-14 {
   max-width: 3.5rem;
+}
+
+.max-w-full {
+  max-width: 100%;
+}
+
+.max-w-10 {
+  max-width: 2.5rem;
+}
+
+.max-w-screen-sm {
+  max-width: 640px;
 }
 
 .shrink-0 {
@@ -799,6 +887,10 @@ video {
   flex-basis: 100%;
 }
 
+.basis-3\/4 {
+  flex-basis: 75%;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -817,6 +909,10 @@ video {
 
 .place-content-center {
   place-content: center;
+}
+
+.place-items-end {
+  place-items: end;
 }
 
 .place-items-center {
@@ -1007,6 +1103,11 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .text-center {
@@ -1224,6 +1325,52 @@ video {
 
 .group:hover .group-hover\:opacity-100 {
   opacity: 1;
+}
+
+@media (min-width: 640px) {
+  .sm\:mx-10 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  .sm\:block {
+    display: block;
+  }
+
+  .sm\:inline-block {
+    display: inline-block;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
+
+  .sm\:w-auto {
+    width: auto;
+  }
+
+  .sm\:basis-2\/4 {
+    flex-basis: 50%;
+  }
+
+  .sm\:place-items-center {
+    place-items: center;
+  }
+
+  .sm\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .sm\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
 }
 
 @media (min-width: 768px) {
