@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./output.css">
+    <title>Dandi Darojat | Digital Designer and Frontend Web Dev</title>
+</head>
+<body class="font-albertsans text-jetblack bg-bonewhite mx-32">
+    <!-- SECTION 0 | HEADER -->
+    <div class="container relative">
+        <div class="container absolute">
+            <div class="flex flex-row p-5">
+                <div class="basis-1/4">
+                    <a href="#"><img src="/assets/images/logo.png" class="max-h-10"></a>
+                </div>
+                <div class="basis-2/4 place-items-center align-middle content-center">
+                    <div class="flex flex-row items-center gap-2 text-xs bg-lightgray rounded-full px-3 py-1">
+                        Available for Remote Work
+                        <div class="w-2.5 h-2.5 bg-green rounded-full"></div>
+                    </div>
+                </div>
+                <div class="basis-1/4 text-right">
+                    <button class="tracking-tight font-medium text-sm px-3.5 py-1.5 border border-solid border-jetblack rounded-md hover:bg-jetblack hover:text-bonewhite duration-200">My Resume</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- SECTION 1 | HERO -->
+    <div class="container min-h-screen content-center place-items-center">
+        <div class="flex flex-col place-items-center space-y-1 *:text-center *:w-fit">
+            <p class="font-light">Hello, I'm <a class="font-bold hover:bg-jetblack hover:text-bonewhite hover:px-1 duration-200" href="https://linkedin.com/in/dandidaro" target="_blank">Dandi</a> 🙌🏻</p>
+            <h1 class="text-7xl tracking-tighter">Digital Designer & <br>Frontend Web Developer</h1>
+            <p class="">I love the process of crafting minimalist and pixel-perfect products from scratch</p>
+            <p class="text-lightgray text-sm">But I hate naming frames...</p>
+            <div class="flex flex-row gap-2">
+                <a href="https://linkedin.com/in/dandidaro" target="_blank" class="w-fit *:flex *:p-2 *:border *:border-solid *:border-jetblack *:rounded-full">
+                    <div class="hover:bg-jetblack duration-200 *:hover:fill-bonewhite">
+                        <svg class="w-5 h-5 fill-jetblack" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.422 3H3.62362C3.01879 3 2.53491 3.48387 2.53491 4.08871V16.9113C2.53491 17.4919 3.01879 18 3.62362 18H16.3737C16.9785 18 17.4623 17.5162 17.4623 16.9113V4.06452C17.5108 3.48388 17.0268 3 16.422 3ZM6.96235 15.75H4.76073V8.6129H6.96235V15.75ZM5.84944 7.62097C5.12364 7.62097 4.56717 7.04033 4.56717 6.33871C4.56717 5.6371 5.14783 5.05645 5.84944 5.05645C6.55105 5.05645 7.1317 5.6371 7.1317 6.33871C7.1317 7.04033 6.59944 7.62097 5.84944 7.62097ZM15.3091 15.75H13.1075V12.2903C13.1075 11.4677 13.0833 10.379 11.9463 10.379C10.7849 10.379 10.6156 11.2984 10.6156 12.2177V15.75H8.41392V8.6129H10.5672V9.60483H10.5913C10.9059 9.02417 11.6075 8.44355 12.6963 8.44355C14.9463 8.44355 15.3575 9.89517 15.3575 11.879V15.75H15.3091Z"/>
+                        </svg>
+                    </div>
+                </a>
+                <a href="https://dribbble.com/dandidaro" target="_blank" class="w-fit *:flex *:p-2 *:border *:border-solid *:border-jetblack *:rounded-full">
+                    <div class="hover:bg-jetblack duration-200 *:hover:fill-bonewhite">
+                        <svg class="w-5 h-5 fill-jetblack" viewBox="0 0 20 21" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.98633 2.16666C5.38576 2.16666 1.66675 5.88566 1.66675 10.4862C1.66675 15.0867 5.38576 18.8333 9.98633 18.8333C14.5868 18.8333 18.3334 15.0867 18.3334 10.4862C18.3334 5.88566 14.5868 2.16666 9.98633 2.16666ZM17.0662 10.7342C15.4408 10.624 13.7328 10.7892 12.0524 11.2025C11.8045 10.5413 11.5566 9.90774 11.2811 9.27407C13.0166 8.69558 14.642 7.84159 16.0469 6.82231C16.7081 7.89668 17.0662 9.16391 17.0662 10.5137C17.0937 10.5688 17.0662 10.6515 17.0662 10.7342ZM15.3031 5.80302C13.9808 6.79476 12.4106 7.59366 10.7301 8.11707C9.84858 6.35398 8.85683 4.86638 7.81001 3.70936C8.49875 3.48897 9.215 3.37878 9.98633 3.37878C12.1075 3.40632 14.0083 4.34296 15.3031 5.80302ZM6.59788 4.26032C7.64471 5.30716 8.63641 6.73966 9.518 8.4752C7.34168 8.99857 5.11028 9.08124 3.09926 8.72313C3.62267 6.79476 4.8899 5.19696 6.59788 4.26032ZM2.90641 9.93524C3.81551 10.1281 4.75216 10.2107 5.68879 10.2107C7.1213 10.2107 8.60891 10.0179 10.069 9.63224C10.3444 10.2382 10.6199 10.8719 10.8403 11.5331C8.41608 12.3044 6.26731 13.5165 4.55931 15.0867C3.54002 13.8196 2.90641 12.2217 2.90641 10.4862C2.90641 10.2934 2.90641 10.1281 2.90641 9.93524ZM5.44086 15.9407C7.01111 14.5082 9.02216 13.3787 11.2535 12.6901C11.3362 12.9656 11.4188 13.2411 11.5015 13.489C11.8596 14.7287 12.1351 15.9683 12.3279 17.1529C11.5841 17.4008 10.8127 17.5661 9.98633 17.5661C8.25077 17.5937 6.68053 16.9601 5.44086 15.9407ZM13.5125 16.6295C13.3197 15.5 13.0442 14.3154 12.7136 13.1308C12.6309 12.8553 12.5483 12.6074 12.4657 12.3319C13.9532 11.9738 15.4959 11.8361 16.9285 11.9187C16.5152 13.9573 15.2205 15.6377 13.5125 16.6295Z"/>
+                        </svg>
+                    </div>
+                </a>
+                <a href="mailto:dandidaro@gmail.com" target="_blank" class="w-fit *:flex *:p-2 *:border *:border-solid *:border-jetblack *:rounded-full">
+                    <div class="hover:bg-jetblack duration-200 *:hover:fill-bonewhite">
+                        <svg class="w-5 h-5 fill-jetblack" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.3334 5.71374V14.875C18.3334 15.9105 17.4939 16.75 16.4584 16.75H3.54175C2.50621 16.75 1.66675 15.9105 1.66675 14.875V5.69498C1.66675 5.68643 1.66692 5.67792 1.66726 5.66945C1.68159 4.8831 2.32351 4.25 3.11335 4.25H16.8871C17.6858 4.25 18.3334 4.89747 18.3335 5.69624C18.3335 5.70207 18.3335 5.70791 18.3334 5.71374ZM2.91675 7.3225V14.875C2.91675 15.2202 3.19657 15.5 3.54175 15.5H16.4584C16.8036 15.5 17.0834 15.2202 17.0834 14.875V7.32289L11.0728 11.5142C10.4285 11.9636 9.57225 11.9636 8.92792 11.5142L2.91675 7.3225ZM17.0834 5.6905V5.69498V5.7028C17.0814 5.76461 17.0504 5.82202 16.9994 5.85754L10.3578 10.4889C10.1431 10.6387 9.85767 10.6387 9.64283 10.4889L3.00105 5.85738C2.94841 5.82068 2.91704 5.76057 2.91701 5.6964C2.91698 5.58794 3.00489 5.5 3.11335 5.5H16.8871C16.9936 5.5 17.0803 5.58476 17.0834 5.6905Z"/>
+                        </svg>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="bg-yellow w-96 h-96 absolute rounded-full opacity-10 m-auto left-0 right-0 top-0 bottom-0 blur-3xl -z-50"></div>
+    </div>
+    
+    <!-- SECTION 2 | SELECTED WORKS -->
+    <div class="container min-h-screen min-w-full my-20 space-y-10">
+        <div class="flex flex-col">
+            <h1 class="text-2xl text-jetblack font-semibold tracking-tighter">Selected Works</h1>
+        </div>
+        <div class="flex flex-col gap-16">
+            <!-- SELECTED WORKS | ROW 1 -->
+            <div class="flex flex-row gap-6">
+                <div class="basis-1/2 relative">
+                    <div class="absolute top-4 right-4 px-3 py-1 rounded-full bg-lightgray text-sm tracking-tighter z-10">Designer</div>
+                    <div class="group">
+                        <a href="https://epployee.id" target="_blank">
+                            <img src="/assets/images/portfolio-epployee.png" class="max-h-80 w-full rounded-xl">
+                            <img src="/assets/images/placeholder.png" class="object-cover h-80 w-0 rounded-xl absolute top-0 opacity-0 group-hover:max-h-80 group-hover:w-full group-hover:opacity-100 duration-700">
+                        </a>
+                    </div>
+                    <div class="flex flex-col gap-1 mt-4">
+                        <div class="flex flex-row gap-1.5 *:w-fit *:tracking-tighter *:text-lg">
+                            <a class="font-semibold hover:bg-jetblack hover:text-bonewhite hover:px-1 duration-200" href="https://epployee.id" target="_blank">Epployee &#129125</a>
+                            <p>&#128900</p>
+                            <p>Mobile App</p>
+                        </div>
+                        <div class="flex flex-row gap-1.5">
+                            <span class="text-sm tracking-tighter bg-lightgray px-3 py-1 rounded-full">Figma</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="basis-1/2 relative">
+                    <div class="absolute top-4 right-4 px-3 py-1 rounded-full bg-lightgray text-sm tracking-tighter z-10">Designer & Developer</div>
+                    <div class="group">
+                        <a href="https://distric.studio" target="_blank">
+                            <img src="/assets/images/portfolio-distric.png" class="max-h-80 w-full rounded-xl">
+                            <img src="/assets/images/placeholder.png" class="object-cover h-80 w-0 rounded-xl absolute top-0 opacity-0 group-hover:max-h-80 group-hover:w-full group-hover:opacity-100 duration-700">
+                        </a>
+                    </div>
+                    <div class="flex flex-col gap-1 mt-4">
+                        <div class="flex flex-row gap-1.5 *:w-fit *:tracking-tighter *:text-lg">
+                            <a class="font-semibold hover:bg-jetblack hover:text-bonewhite hover:px-1 duration-200" href="https://distric.studio" target="_blank">Distric Studio &#129125</a>
+                            <p>&#128900</p>
+                            <p>Website</p>
+                        </div>
+                        <div class="flex flex-row gap-1.5">
+                            <span class="text-sm tracking-tighter bg-lightgray px-3 py-1 rounded-full">Bootstrap</span>
+                            <span class="text-sm tracking-tighter bg-lightgray px-3 py-1 rounded-full">HTML</span>
+                            <span class="text-sm tracking-tighter bg-lightgray px-3 py-1 rounded-full">CSS</span>
+                            <span class="text-sm tracking-tighter bg-lightgray px-3 py-1 rounded-full">JS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SELECTED WORKS | ROW 2 -->
+            <div class="flex flex-row gap-6">
+                <div class="basis-1/2 relative">
+                    <div class="absolute top-4 right-4 px-3 py-1 rounded-full bg-lightgray text-sm tracking-tighter z-10">Designer & Developer</div>
+                    <div class="group">
+                        <a href="#">
+                            <img src="/assets/images/portfolio-personal.png" class="max-h-80 w-full rounded-xl">
+                            <img src="/assets/images/placeholder.png" class="object-cover h-80 w-0 rounded-xl absolute top-0 opacity-0 group-hover:max-h-80 group-hover:w-full group-hover:opacity-100 duration-700">
+                        </a>
+                    </div>
+                    <div class="flex flex-col gap-1 mt-4">
+                        <div class="flex flex-row gap-1.5 *:w-fit *:tracking-tighter *:text-lg">
+                            <a class="font-semibold hover:bg-jetblack hover:text-bonewhite hover:px-1 duration-200" href="#">Personal Portfolio &#129125</a>
+                            <p>&#128900</p>
+                            <p>Website</p>
+                        </div>
+                        <div class="flex flex-row gap-1.5">
+                            <span class="text-sm tracking-tighter bg-lightgray px-3 py-1 rounded-full">Figma</span>
+                            <span class="text-sm tracking-tighter bg-lightgray px-3 py-1 rounded-full">Tailwind</span>
+                            <span class="text-sm tracking-tighter bg-lightgray px-3 py-1 rounded-full">HTML</span>
+                            <span class="text-sm tracking-tighter bg-lightgray px-3 py-1 rounded-full">CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="basis-1/2 relative">
+                    <div class="absolute top-4 right-4 px-3 py-1 rounded-full bg-lightgray text-sm tracking-tighter z-10">Designer</div>
+                    <div class="group">
+                        <a href="https://aclc.kpk.go.id" target="_blank">
+                            <img src="/assets/images/portfolio-aclc.png" class="max-h-80 w-full rounded-xl">
+                            <img src="/assets/images/placeholder.png" class="object-cover h-80 w-0 rounded-xl absolute top-0 opacity-0 group-hover:max-h-80 group-hover:w-full group-hover:opacity-100 duration-700">
+                        </a>
+                    </div>
+                    <div class="flex flex-col gap-1 mt-4">
+                        <div class="flex flex-row gap-1.5 *:w-fit *:tracking-tighter *:text-lg">
+                            <a class="font-semibold hover:bg-jetblack hover:text-bonewhite hover:px-1 duration-200" href="https://aclc.kpk.go.id" target="_blank">ACLC KPK &#129125</a>
+                            <p>&#128900</p>
+                            <p>Website</p>
+                        </div>
+                        <div class="flex flex-row gap-1.5">
+                            <span class="text-sm tracking-tighter bg-lightgray px-3 py-1 rounded-full">Figma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SELECTED WORKS | ROW 3 -->
+            <div class="flex flex-row gap-6">
+                <div class="basis-1/2 relative">
+                    <div class="absolute top-4 right-4 px-3 py-1 rounded-full bg-lightgray text-sm tracking-tighter z-10">Designer</div>
+                    <div class="group">
+                        <a href="#">
+                            <img src="/assets/images/portfolio-raccitin.png" class="max-h-80 w-full rounded-xl">
+                            <img src="/assets/images/placeholder.png" class="object-cover h-80 w-0 rounded-xl absolute top-0 opacity-0 group-hover:max-h-80 group-hover:w-full group-hover:opacity-100 duration-700">
+                        </a>
+                    </div>
+                    <div class="flex flex-col gap-1 mt-4">
+                        <div class="flex flex-row gap-1.5 *:w-fit *:tracking-tighter *:text-lg">
+                            <p>Raccit.in</p>
+                            <p>&#128900</p>
+                            <p>Website (Fake Project)</p>
+                        </div>
+                        <div class="flex flex-row gap-1.5">
+                            <span class="text-sm tracking-tighter bg-lightgray px-3 py-1 rounded-full">Figma</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="basis-1/2 relative">
+                    <div class="absolute top-4 right-4 px-3 py-1 rounded-full bg-lightgray text-sm tracking-tighter z-10">Designer</div>
+                    <div class="group">
+                        <a href="#">
+                            <img src="/assets/images/portfolio-supplystore.png" class="max-h-80 w-full rounded-xl">
+                            <img src="/assets/images/placeholder.png" class="object-cover h-80 w-0 rounded-xl absolute top-0 opacity-0 group-hover:max-h-80 group-hover:w-full group-hover:opacity-100 duration-700">
+                        </a>
+                    </div>
+                    <div class="flex flex-col gap-1 mt-4">
+                        <div class="flex flex-row gap-1.5 *:w-fit *:tracking-tighter *:text-lg">
+                            <p>SupplyStore</p>
+                            <p>&#128900</p>
+                            <p>Website (Fake Project)</p>
+                        </div>
+                        <div class="flex flex-row gap-1.5">
+                            <span class="text-sm tracking-tighter bg-lightgray px-3 py-1 rounded-full">Figma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- SECTION 3 | EXPERIENCE AND PROJECT -->
+    <div class="container min-w-full my-40 space-y-10">
+        <div class="flex flex-row gap-6">
+            <!-- EXPERIENCE -->
+            <div class="flex flex-col basis-1/2 gap-10">
+                <h1 class="text-2xl text-jetblack font-semibold tracking-tighter w-full">Experience</h1>
+                <div class="flex flex-col divide-y divide-lightgray">
+                    <!-- ITEM | PVS -->
+                    <div class="flex flex-row gap-4 py-4">
+                        <div class="h-14 w-14 bg-lightgray rounded-lg place-content-center place-items-center">
+                            <img src="/assets/images/logo-pvs.png" class="max-w-8 max-h-8">
+                        </div>
+                        <div class="flex flex-col gap-0 *:tracking-tighter place-content-center">
+                            <p>UI & UX Designer at 
+                                <a class="font-semibold hover:px-1 hover:bg-jetblack hover:text-bonewhite duration-200" href="https://primavista-solusi.com" target="_blank">Prima Vista Solusi &#129125</a>
+                            </p>
+                            <p class="text-sm text-gray">May 2023 - present</p>
+                        </div>
+                    </div>
+                    <!-- ITEM | EPPLOYEE -->
+                    <div class="flex flex-row gap-4 py-4">
+                        <div class="h-14 w-14 bg-lightgray rounded-lg place-content-center place-items-center">
+                            <img src="/assets/images/logo-epployee.png" class="max-w-8 max-h-8">
+                        </div>
+                        <div class="flex flex-col gap-0 *:tracking-tighter place-content-center">
+                            <p>UI & UX Designer at 
+                                <a class="font-semibold hover:px-1 hover:bg-jetblack hover:text-bonewhite duration-200" href="https://epployee.id" target="_blank">Epployee &#129125</a>
+                            </p>
+                            <p class="text-sm text-gray">Nov 2021 - present</p>
+                        </div>
+                    </div>
+                    <!-- ITEM | KPK -->
+                    <div class="flex flex-row gap-4 py-4">
+                        <div class="h-14 w-14 bg-lightgray rounded-lg place-content-center place-items-center">
+                            <img src="/assets/images/logo-kpk.png" class="max-w-8 max-h-8">
+                        </div>
+                        <div class="flex flex-col gap-0 *:tracking-tighter place-content-center">
+                            <p>Product & Graphic Designer at 
+                                <a class="font-semibold hover:px-1 hover:bg-jetblack hover:text-bonewhite duration-200" href="https://kpk.go.id" target="_blank">KPK &#129125</a>
+                            </p>
+                            <p class="text-sm text-gray">Jan - Dec 2022</p>
+                        </div>
+                    </div>
+                    <!-- ITEM | COGNIXY -->
+                    <div class="flex flex-row gap-4 py-4">
+                        <div class="h-14 w-14 bg-lightgray rounded-lg place-content-center place-items-center">
+                            <img src="/assets/images/logo-cognixy.png" class="max-w-8 max-h-8">
+                        </div>
+                        <div class="flex flex-col gap-0 *:tracking-tighter place-content-center">
+                            <p>UI & UX Designer Intern at 
+                                <a class="font-semibold hover:px-1 hover:bg-jetblack hover:text-bonewhite duration-200" href="https://cognixy.ai" target="_blank">Cognixy &#129125</a>
+                            </p>
+                            <p class="text-sm text-gray">May - Aug 2020</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- OTHER PROJECT -->
+            <div class="flex flex-col basis-1/2 gap-10">
+                <h1 class="text-2xl text-jetblack font-semibold tracking-tighter w-full">Other Project</h1>
+                <div class="flex flex-col divide-y divide-lightgray">
+                    <!-- ITEM | DISTRIC -->
+                    <div class="flex flex-row gap-4 py-4">
+                        <div class="h-14 w-14 bg-lightgray rounded-lg place-content-center place-items-center">
+                            <img src="/assets/images/logo-distric.png" class="max-w-8 max-h-8">
+                        </div>
+                        <div class="flex flex-col gap-0 *:tracking-tighter place-content-center">
+                            <p>Founder at 
+                                <a class="font-semibold hover:px-1 hover:bg-jetblack hover:text-bonewhite duration-200" href="https://distric.studio" target="_blank">Distric Studio &#129125</a>
+                            </p>
+                            <p class="text-sm text-gray">Aug 2024 - present</p>
+                        </div>
+                    </div>
+                    <!-- ITEM | ACLC -->
+                    <div class="flex flex-row gap-4 py-4">
+                        <div class="h-14 w-14 bg-lightgray rounded-lg place-content-center place-items-center">
+                            <img src="/assets/images/logo-aclc.png" class="max-w-8 max-h-8">
+                        </div>
+                        <div class="flex flex-col gap-0 *:tracking-tighter place-content-center">
+                            <p>UI & UX Design Consultant at 
+                                <a class="font-semibold hover:px-1 hover:bg-jetblack hover:text-bonewhite duration-200" href="https://aclc.kpk.go.id" target="_blank">ACLC KPK &#129125</a>
+                            </p>
+                            <p class="text-sm text-gray">Oct 23 - Nov 24</p>
+                        </div>
+                    </div>
+                    <!-- ITEM | PNM -->
+                    <div class="flex flex-row gap-4 py-4">
+                        <div class="h-14 w-14 bg-lightgray rounded-lg place-content-center place-items-center">
+                            <img src="/assets/images/logo-self.png" class="max-w-8 max-h-8">
+                        </div>
+                        <div class="flex flex-col gap-0 *:tracking-tighter place-content-center">
+                            <p>UI & UX Designer at 
+                                <a class="font-semibold hover:px-1 hover:bg-jetblack hover:text-bonewhite duration-200" href="#">Project: PNM Data Management</a>
+                            </p>
+                            <p class="text-sm text-gray">Apr 2023</p>
+                        </div>
+                    </div>
+                    <!-- ITEM | XL APPS -->
+                    <div class="flex flex-row gap-4 py-4">
+                        <div class="h-14 w-14 bg-lightgray rounded-lg place-content-center place-items-center">
+                            <img src="/assets/images/logo-self.png" class="max-w-8 max-h-8">
+                        </div>
+                        <div class="flex flex-col gap-0 *:tracking-tighter place-content-center">
+                            <p>UI & UX Designer at 
+                                <a class="font-semibold hover:px-1 hover:bg-jetblack hover:text-bonewhite duration-200" href="#">Project: XL Apps</a>
+                            </p>
+                            <p class="text-sm text-gray">Feb - Mar 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECTION 4 | FOOTER -->
+     <div class="container min-w-full my-20">
+        <div class="flex flex-row bg-jetblack px-10 py-8 rounded-xl place-content-center place-items-center">
+            <div class="flex flex-col grow *:text-bonewhite">
+                <h1 class="text-2xl tracking-tighter font-medium">Let's Collaborate ✨</h1>
+                <p class="text-sm tracking-tighter">Wondering what we can achieve if we work together?</p>
+            </div>
+            <div class="flex flex-row gap-3">
+                <a href="https://linkedin.com/in/dandidaro" target="_blank" class="w-fit *:flex *:p-2 rounded-full">
+                    <div class="hover:bg-bonewhite *:hover:fill-jetblack rounded-full duration-200">
+                        <svg class="w-5 h-5 fill-bonewhite" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.422 3H3.62362C3.01879 3 2.53491 3.48387 2.53491 4.08871V16.9113C2.53491 17.4919 3.01879 18 3.62362 18H16.3737C16.9785 18 17.4623 17.5162 17.4623 16.9113V4.06452C17.5108 3.48388 17.0268 3 16.422 3ZM6.96235 15.75H4.76073V8.6129H6.96235V15.75ZM5.84944 7.62097C5.12364 7.62097 4.56717 7.04033 4.56717 6.33871C4.56717 5.6371 5.14783 5.05645 5.84944 5.05645C6.55105 5.05645 7.1317 5.6371 7.1317 6.33871C7.1317 7.04033 6.59944 7.62097 5.84944 7.62097ZM15.3091 15.75H13.1075V12.2903C13.1075 11.4677 13.0833 10.379 11.9463 10.379C10.7849 10.379 10.6156 11.2984 10.6156 12.2177V15.75H8.41392V8.6129H10.5672V9.60483H10.5913C10.9059 9.02417 11.6075 8.44355 12.6963 8.44355C14.9463 8.44355 15.3575 9.89517 15.3575 11.879V15.75H15.3091Z"/>
+                        </svg>
+                    </div>
+                </a>
+                <a href="https://dribbble.com/dandidaro" target="_blank" class="w-fit *:flex *:p-2 rounded-full">
+                    <div class="hover:bg-bonewhite *:hover:fill-jetblack rounded-full duration-200">
+                        <svg class="w-5 h-5 fill-bonewhite" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.98633 2.16666C5.38576 2.16666 1.66675 5.88566 1.66675 10.4862C1.66675 15.0867 5.38576 18.8333 9.98633 18.8333C14.5868 18.8333 18.3334 15.0867 18.3334 10.4862C18.3334 5.88566 14.5868 2.16666 9.98633 2.16666ZM17.0662 10.7342C15.4408 10.624 13.7328 10.7892 12.0524 11.2025C11.8045 10.5413 11.5566 9.90774 11.2811 9.27407C13.0166 8.69558 14.642 7.84159 16.0469 6.82231C16.7081 7.89668 17.0662 9.16391 17.0662 10.5137C17.0937 10.5688 17.0662 10.6515 17.0662 10.7342ZM15.3031 5.80302C13.9808 6.79476 12.4106 7.59366 10.7301 8.11707C9.84858 6.35398 8.85683 4.86638 7.81001 3.70936C8.49875 3.48897 9.215 3.37878 9.98633 3.37878C12.1075 3.40632 14.0083 4.34296 15.3031 5.80302ZM6.59788 4.26032C7.64471 5.30716 8.63641 6.73966 9.518 8.4752C7.34168 8.99857 5.11028 9.08124 3.09926 8.72313C3.62267 6.79476 4.8899 5.19696 6.59788 4.26032ZM2.90641 9.93524C3.81551 10.1281 4.75216 10.2107 5.68879 10.2107C7.1213 10.2107 8.60891 10.0179 10.069 9.63224C10.3444 10.2382 10.6199 10.8719 10.8403 11.5331C8.41608 12.3044 6.26731 13.5165 4.55931 15.0867C3.54002 13.8196 2.90641 12.2217 2.90641 10.4862C2.90641 10.2934 2.90641 10.1281 2.90641 9.93524ZM5.44086 15.9407C7.01111 14.5082 9.02216 13.3787 11.2535 12.6901C11.3362 12.9656 11.4188 13.2411 11.5015 13.489C11.8596 14.7287 12.1351 15.9683 12.3279 17.1529C11.5841 17.4008 10.8127 17.5661 9.98633 17.5661C8.25077 17.5937 6.68053 16.9601 5.44086 15.9407ZM13.5125 16.6295C13.3197 15.5 13.0442 14.3154 12.7136 13.1308C12.6309 12.8553 12.5483 12.6074 12.4657 12.3319C13.9532 11.9738 15.4959 11.8361 16.9285 11.9187C16.5152 13.9573 15.2205 15.6377 13.5125 16.6295Z"/>
+                        </svg>
+                    </div>
+                </a>
+                <a href="mailto:dandidaro@gmail.com"
+                class="tracking-tight font-medium text-sm text-bonewhite px-3.5 py-1.5 border border-solid border-bonewhite rounded-md hover:bg-bonewhite hover:text-jetblack duration-200">
+                    Contact Me
+                </a>
+            </div>
+        </div>
+     </div>
+</body>
+</html>
