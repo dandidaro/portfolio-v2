@@ -650,6 +650,10 @@ video {
   margin-top: 1rem;
 }
 
+.block {
+  display: block;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -727,6 +731,10 @@ video {
   width: 100%;
 }
 
+.w-1 {
+  width: 0.25rem;
+}
+
 .min-w-full {
   min-width: 100%;
 }
@@ -749,6 +757,10 @@ video {
 
 .basis-full {
   flex-basis: 100%;
+}
+
+.basis-1\/2 {
+  flex-basis: 50%;
 }
 
 .flex-row {
